@@ -12,10 +12,6 @@
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
 
-img {
-  border-radius: 50%;
-}
-
   body {
     border-radius: 50%;
     background-color: beige; /* set the background color here */
