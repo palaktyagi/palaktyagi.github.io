@@ -6,6 +6,8 @@
   width: 100%;
   background-color: #C8C8C8;
   overflow: auto;
+  position: absolute;
+  top:0px;
 }
 
 .navbar a {
