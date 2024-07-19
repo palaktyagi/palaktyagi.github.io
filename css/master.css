@@ -1,7 +1,5 @@
 /* Cascading stylesheet for the website */
 
-/* Text inside these asterisks and slashes are comments for human */
-
 .navbar {
   width: 100%;
   background-color: #f5f5f5;
@@ -39,10 +37,23 @@
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
 
+.home-img{
+  border-radius: 70%;
+    height: 20vw;
+    width: 20vw;
+  object-fit: cover;
+    object-position: center top;
+}
+
+img{
+  max-width: 20%;
+  padding: 20px;
+}
+
   body {
     border-radius: 50%;
     background-color: #F5F5F5; /* set the background color here */
-    color: black;/* set the text color to black here */
+    color: darkgray;/* set the text color to black here */
     font-family: Arial,Helvetica, sans-serif;/* set the font here */
     text-align: center; /* set the text alignment here */
    }
@@ -60,8 +71,7 @@
   h2 {
       color: #075AAB;
       margin-bottom: 2.5rem;
-      margin-top: 2.5rem;/*set the text color of to #075AAB here */
-    /* set both the bottom margin and top margin to 2.5rem here */
+      margin-top: 2.5rem;
    }
 
   h3 {
