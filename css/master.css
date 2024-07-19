@@ -43,6 +43,7 @@ home-img{
     width: 20vw;
   object-fit: cover;
     object-position: center top;
+  padding-top:10px;
 }
 
 img{
