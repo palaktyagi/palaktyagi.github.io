@@ -37,7 +37,7 @@
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
 
-.home-img{
+home-img{
   border-radius: 70%;
     height: 20vw;
     width: 20vw;
@@ -48,6 +48,12 @@
 img{
   max-width: 20%;
   padding: 20px;
+}
+
+intro{
+  color: #444;
+    margin-bottom: 2vh;
+    text-align: center;
 }
 
   body {
