@@ -101,7 +101,7 @@ intro{
   display:flex;
 }
 .resume-head{
-      display:flex;
+      display:flex !important;
       margin-left: 4rem;
 }
 .tenure{
@@ -112,7 +112,7 @@ intro{
     margin-bottom: 1vh;
 }
 .basic{
-    display:flex;
+  margin-left: 4rem
    color: #444;
 }
 
