@@ -115,6 +115,7 @@ intro{
 .basic{
   margin-left: 4rem !important;
    color: #444 !important;
+  text-align: left;
 }
 
   a {
@@ -135,6 +136,7 @@ intro{
     color: darkgray;/* set the text color to black here */
     font-family: Arial,Helvetica, sans-serif;/* set the font here */
     text-align: center; /* set the text alignment here */
+    overflow-x: hidden;
    }
 
   footer {
