@@ -38,7 +38,7 @@
 
 img{
   max-width: 20%;
-  padding: 20px;
+  padding: 40px;
 }
 
 intro{
@@ -89,10 +89,21 @@ intro{
   font-size: 18px;
 }
 .timeline-subtitle{
+  display:flex
   font-weight: 600;
     color: #444;
     margin-bottom: 1vh;
   font-size: 15px;
+}
+
+.flexbox{
+  display:flex
+}
+.tenure{
+   color: #444;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 1vh;
 }
 
   a {
