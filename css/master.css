@@ -64,16 +64,16 @@ intro{
 }
 .timeline-item::before{
   content: "";
-  width: 1px;
+  width: 4px;
   position: absolute;
-  height: 120%;
-  left: 7px;
+  height: 150%;
+  left: 10px;
   top: 0;
   background-color: #999;  
 }
 .circle-dot{
   background-color: #999;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   position: absolute;
   left: 0px;
   top: 0;
