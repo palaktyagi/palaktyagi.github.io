@@ -105,15 +105,15 @@ intro{
       margin-left: 4rem;
 }
 .tenure{
-  display:flex !important;
+  display:flex;
    color: #444;
     font-size: 13px;
     font-weight: 500;
     margin-bottom: 1vh;
 }
 .basic{
-  margin-left: 4rem
-   color: #444;
+  margin-left: 4rem !important;
+   color: #444 !important;
 }
 
   a {
