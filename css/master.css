@@ -39,12 +39,12 @@
 
 img{
   max-width: 20%;
-  padding: 20px;
+  padding: 40px;
 }
 
-intro{
+.intro{
   color: #444 !important;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
     text-align: center;
 }
 
