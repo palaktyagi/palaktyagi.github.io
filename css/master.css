@@ -1,7 +1,5 @@
 /* Cascading stylesheet for the website */
 
-/* --------Navigation ----------- */
-
 .navbar {
   width: 100%;
   background-color: #E0E0E0;
@@ -29,7 +27,6 @@
   }
 }
 
-/* ---------------Image------------- */
 
 .home-img{
   border-radius: 70%;
@@ -50,7 +47,6 @@ intro{
     text-align: center;
 }
 
-/* ----------Timeline--------------*/
 
 .timeline{
   padding: 30px 15px;
