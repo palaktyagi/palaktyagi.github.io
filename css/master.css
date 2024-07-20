@@ -31,15 +31,15 @@
 
 .home-img{
   border-radius: 70%;
-  height: 20vw;
-  width: 20vw;
+  height: 16vw;
+  width: 16vw;
   object-fit: cover;
   object-position: center top;
 }
 
 img{
-  max-width: 16%;
-  padding: 16px;
+  max-width: 20%;
+  padding: 20px;
 }
 
 intro{
