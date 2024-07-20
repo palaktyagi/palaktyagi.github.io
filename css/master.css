@@ -1,5 +1,7 @@
 /* Cascading stylesheet for the website */
 
+//----------Navigation-----------------
+
 .navbar {
   width: 100%;
   background-color: #E0E0E0;
@@ -27,15 +29,7 @@
   }
 }
 
-  a {
-    color: blue;/* set the text color to blue here */
-    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
-  }
-
-  a:hover {
-    color: red;/* set the text color to red here */
-    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
-  }
+//-----------------Home-----------
 
 .home-img{
   border-radius: 70%;
@@ -55,6 +49,60 @@ intro{
     margin-bottom: 2vh;
     text-align: center;
 }
+
+//-----------------Timeline-------------
+
+.timeline{
+  padding: 30px 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+.timeline-item{
+  position:relative;
+  padding-left: 37px;
+  padding-bottom: 50px; 
+}
+
+.timeline-item:last-child{
+  padding-bottom: 0;
+}
+.timeline-item::before{
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  left: 7px;
+  top: 0;
+  background-color: #fed700;  
+}
+.circle-dot{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+}
+.timeline-title  {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+  a {
+    color: blue;/* set the text color to blue here */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+  }
+
+  a:hover {
+    color: red;/* set the text color to red here */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+  }
+
+
 
   body {
     border-radius: 50%;
