@@ -17,6 +17,7 @@
 }
 
 .navbar a:hover {
+  background-color: gray;
   color:white !important;
 }
 
@@ -49,7 +50,7 @@ intro{
 
 
 .timeline{
-  padding: 30px 70px;
+  padding: 20px 70px;
   width: 100%;
   position: relative;
 }
@@ -149,7 +150,7 @@ intro{
   h2 {
       color: #075AAB;
       margin-bottom: 2.5rem;
-      margin-top: 2.5rem;
+      margin-top: 3.5rem;
    }
 
   h3 {
