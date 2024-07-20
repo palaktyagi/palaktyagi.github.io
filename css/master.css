@@ -43,7 +43,7 @@ img{
 }
 
 intro{
-  color: #444;
+  color: #444 !important;
     margin-bottom: 2vh;
     text-align: center;
 }
