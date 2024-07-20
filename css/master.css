@@ -54,6 +54,7 @@ intro{
   position: relative;
 }
 .timeline-item{
+  color: #444;
   position:relative;
   padding-left: 37px;
   padding-bottom: 50px; 
@@ -66,7 +67,7 @@ intro{
   content: "";
   width: 4px;
   position: absolute;
-  height: 150%;
+  height: 100%;
   left: 10px;
   top: 0;
   background-color: #999;  
@@ -85,25 +86,34 @@ intro{
   display: flex;
   font-weight: 700;
     color: #444;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
   font-size: 18px;
 }
 .timeline-subtitle{
-  display:flex
-  font-weight: 600;
+  display:flex !important;
+  font-weight: 600 !important;
     color: #444;
     margin-bottom: 1vh;
   font-size: 15px;
 }
 
 .flexbox{
-  display:flex
+  display:flex;
+}
+.resume-head{
+      display:flex;
+      margin-left: 4rem;
 }
 .tenure{
+  display:flex;
    color: #444;
     font-size: 13px;
     font-weight: 500;
     margin-bottom: 1vh;
+}
+.basic{
+    display:flex;
+   color: #444;
 }
 
   a {
