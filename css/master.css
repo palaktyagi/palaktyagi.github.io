@@ -38,8 +38,9 @@
 }
 
 img{
+  margin-top: 40px
   max-width: 20%;
-  padding: 40px;
+  padding: 30px;
 }
 
 .intro{
